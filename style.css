@@ -9,6 +9,10 @@ h1{
     font-weight: 800;
     font-size: 70px;
 }
+h2{
+    font-weight: 800;
+    font-size: 50px;
+}
 h3{
     font-weight: bold;
     font-size: 30px;
@@ -80,3 +84,45 @@ a.cta.alt, button.cta.alt{
     position: absolute; top: 160px; right: 170px;
 }
 
+nav{
+    height: 100px;
+    background-color: #F4DECB;
+    box-shadow: 0 5px 8px rgba(0,0,0,.2);
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+nav ul li{
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: right;
+}
+nav ul li a{
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #94618E;
+    text-decoration: none;
+    padding: 30px 10px;
+    line-height: 30px;
+}
+
+.more-info{
+    text-align: center;
+}
+.more-info h2{
+
+}
+p{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 0;
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,800&display=swap');
+
+body, html{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-weight: 800;
+    font-size: 70px;
+}
+h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+.woman-banner{
+    background-color: #94618E;
+    min-height: 100vh;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 20px;
+    padding: 0 20px;
+}
+.woman-banner h4{
+    color: #F8EEE7;
+    margin: 0;
+}
+.woman-banner h3{
+    color: #F8EEE7;
+    margin: 0 0 35px;
+}
+.woman-banner h1{
+    color: #F8EEE7;
+    margin: 14px 0 20px;
+}
+a.cta, button.cta{
+    font-size: 30px;
+    font-weight: bold;
+    color: #F8EEE7;
+    background: #F4DECB;
+    display: inline-block;
+    box-shadow: 0 0 0 10px rgba(0,127,255,.15);
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+a.cta.alt, button.cta.alt{
+    background-color: #49274A;
+    box-shadow: 0 0 0 10px rgba(0,0,0,.15);
+}
+.picture1{
+    background: url("images/pic1.png") no-repeat 0 0;
+    background-size: 80%;
+    width: 500px;
+    height: 500px;
+    position: absolute; top: 104px; right: 0;
+}
+
+.picture2{
+    background: url("images/pic2.png") no-repeat 0 0;
+    background-size: 90%;;
+    width: 500px;
+    height: 500px;
+    position: absolute; top: 144px; right: 380px;
+}
+.picture3{
+    background: url("images/pic3.png") no-repeat 0 0;
+    background-size: 100%;;
+    width: 500px;
+    height: 500px;
+    position: absolute; top: 160px; right: 170px;
+}
+
